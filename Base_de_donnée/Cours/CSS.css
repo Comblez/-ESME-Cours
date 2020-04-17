@@ -1,0 +1,86 @@
+/*selecteur de balise*/
+body{
+	background-color: rgba(183,110,121,0.7); 
+	text-align: justify;
+}
+
+/*selecteur id*/
+#premier_paragraphe{
+	font-style: italic;
+}
+
+/*selecteur class*/
+.texte_special {
+	front-size larger;
+	/*color: color: rgba(153,234,221,1);*/
+}
+
+/*selecteur speudo class*/
+a:hover{
+	font-weight: bold;
+	color: rgba(106,255,234,1);
+}
+img{
+	box-shadow: 10px 10px 10px blue;
+}
+
+/*selection enfant direct
+section > *:nth-child(2) {
+	text-decoration: overline;
+}*/
+
+h1{
+	text-align: center;
+}
+
+#div_conteneur {
+	background-color: green;
+	height: 400px;
+	width: 200px;
+	border: dashed 10px;
+
+	position: relative;
+}
+
+#div_enfant1 {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	border: dotted; 2px;
+	margin: 3em;
+}
+
+#div_enfant2 {
+	background-color: blue;
+	height: 150px;
+	width: 50px;
+	border: solid; 3px;
+	margin: 20px;
+}
+
+#div_enfant3 {
+	height 20vh;
+	width 30 vw;
+	background: linear-gradient(to top ,salmon, purple);
+	border: double 10px;
+	/*positionner element par rapport au parent (coin gauche parent)*/
+	position: absolute;
+	right: 0px;
+	top: 20%;
+
+}
+
+nav{
+	position: fixed;
+	background: rgba(255,0,255,0.2);
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+nav ul{
+	padding: 0;
+	list-style-type: none;
+}
