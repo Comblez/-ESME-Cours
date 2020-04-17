@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Bienvenue à Emedia</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Guillaume Roux">
+        <link rel="stylesheet" type="text/css" href ="CSS.css"/>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Etat civil</legend>
+                <label for="input_nom">Nom</label>
+                <input id="input_nom" type="text">
+                <br>
+                <label for="input_prenom">Prénom</label>
+                <input id="input_prenom" type="text">
+                <br>
+                <label for="input_sexe1">Masculin</label>
+                <input id="input_sexe1" type="radio" name="sexe">
+                <label for="input_sexe2">Féminin</label>
+                <input id="input_sexe2" type="radio" name="sexe">
+                <br>
+                <label for="input_date">Date de naissance</label>
+                <input id="input_date" type="date">
+                <br>
+                <label for="input_situation">Situation</label>
+                <select id="input_situation" name="situation">
+                    <option>célibataire</option>
+                    <option>en couple</option>
+                    <option>mariés</option>
+                </select>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="input_adresse">Adresse</label>
+                <input id="input_adresse" type="text">
+                <br>
+                <label for="input_telephone">Téléphone</label>
+                <input id="input_telephone" type="tel">
+                <br>
+                <label for="input_email">Adresse électronique</label>
+                <input id="input_email" type="email">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Mesage à envoyer</legend>
+                <label for="input_message">Message</label>
+                <textarea id="input_message"></textarea>
+                <br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
